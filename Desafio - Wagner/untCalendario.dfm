@@ -1,0 +1,32 @@
+object FrmCalendario: TFrmCalendario
+  Left = 569
+  Top = 162
+  Caption = 'Calend'#225'rio'
+  ClientHeight = 48
+  ClientWidth = 226
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  OnClose = FrmOnClose
+  OnDestroy = FrmOnDestroy
+  OnKeyDown = FrmOnKeyDown
+  OnKeyPress = FrmOnKeyPress
+  PixelsPerInch = 96
+  TextHeight = 13
+  object dtCalendario: TDateTimePicker
+    Left = 24
+    Top = 8
+    Width = 186
+    Height = 25
+    Date = 43776.000000000000000000
+    Time = 0.020007824074127710
+    TabOrder = 0
+    OnKeyDown = FrmOnKeyDown
+    OnKeyPress = FrmOnKeyPress
+  end
+end
